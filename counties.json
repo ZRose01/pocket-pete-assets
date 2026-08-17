@@ -1,0 +1,377 @@
+{
+  "version": 1,
+  "counties": {
+    "31001": {
+      "name": "Adams",
+      "seed": 62934
+    },
+    "31003": {
+      "name": "Antelope",
+      "seed": 31583
+    },
+    "31005": {
+      "name": "Arthur",
+      "seed": 86445
+    },
+    "31007": {
+      "name": "Banner",
+      "seed": 99047
+    },
+    "31009": {
+      "name": "Blaine",
+      "seed": 24796
+    },
+    "31011": {
+      "name": "Boone",
+      "seed": 60424
+    },
+    "31013": {
+      "name": "Box Butte",
+      "seed": 12067
+    },
+    "31015": {
+      "name": "Boyd",
+      "seed": 88372
+    },
+    "31017": {
+      "name": "Brown",
+      "seed": 11857
+    },
+    "31019": {
+      "name": "Buffalo",
+      "seed": 46929
+    },
+    "31021": {
+      "name": "Burt",
+      "seed": 94599
+    },
+    "31023": {
+      "name": "Butler",
+      "seed": 72225
+    },
+    "31025": {
+      "name": "Cass",
+      "seed": 38658
+    },
+    "31027": {
+      "name": "Cedar",
+      "seed": 56259
+    },
+    "31029": {
+      "name": "Chase",
+      "seed": 81537
+    },
+    "31031": {
+      "name": "Cherry",
+      "seed": 94080
+    },
+    "31033": {
+      "name": "Cheyenne",
+      "seed": 49973
+    },
+    "31035": {
+      "name": "Clay",
+      "seed": 89427
+    },
+    "31037": {
+      "name": "Colfax",
+      "seed": 15761
+    },
+    "31039": {
+      "name": "Cuming",
+      "seed": 26466
+    },
+    "31041": {
+      "name": "Custer",
+      "seed": 25980
+    },
+    "31043": {
+      "name": "Dakota",
+      "seed": 57566
+    },
+    "31045": {
+      "name": "Dawes",
+      "seed": 79628
+    },
+    "31047": {
+      "name": "Dawson",
+      "seed": 29810
+    },
+    "31049": {
+      "name": "Deuel",
+      "seed": 37871
+    },
+    "31051": {
+      "name": "Dixon",
+      "seed": 23557
+    },
+    "31053": {
+      "name": "Dodge",
+      "seed": 31241
+    },
+    "31055": {
+      "name": "Douglas",
+      "seed": 33483
+    },
+    "31057": {
+      "name": "Dundy",
+      "seed": 83615
+    },
+    "31059": {
+      "name": "Fillmore",
+      "seed": 82717
+    },
+    "31061": {
+      "name": "Franklin",
+      "seed": 45461
+    },
+    "31063": {
+      "name": "Frontier",
+      "seed": 35239
+    },
+    "31065": {
+      "name": "Furnas",
+      "seed": 83978
+    },
+    "31067": {
+      "name": "Gage",
+      "seed": 53324
+    },
+    "31069": {
+      "name": "Garden",
+      "seed": 91725
+    },
+    "31071": {
+      "name": "Garfield",
+      "seed": 65843
+    },
+    "31073": {
+      "name": "Gosper",
+      "seed": 62256
+    },
+    "31075": {
+      "name": "Grant",
+      "seed": 46065
+    },
+    "31077": {
+      "name": "Greeley",
+      "seed": 72071
+    },
+    "31079": {
+      "name": "Hall",
+      "seed": 77394
+    },
+    "31081": {
+      "name": "Hamilton",
+      "seed": 48028
+    },
+    "31083": {
+      "name": "Harlan",
+      "seed": 58500
+    },
+    "31085": {
+      "name": "Hayes",
+      "seed": 51451
+    },
+    "31087": {
+      "name": "Hitchcock",
+      "seed": 14018
+    },
+    "31089": {
+      "name": "Holt",
+      "seed": 72449
+    },
+    "31091": {
+      "name": "Hooker",
+      "seed": 21082
+    },
+    "31093": {
+      "name": "Howard",
+      "seed": 37295
+    },
+    "31095": {
+      "name": "Jefferson",
+      "seed": 65382
+    },
+    "31097": {
+      "name": "Johnson",
+      "seed": 61321
+    },
+    "31099": {
+      "name": "Kearney",
+      "seed": 48063
+    },
+    "31101": {
+      "name": "Keith",
+      "seed": 21303
+    },
+    "31103": {
+      "name": "Keya Paha",
+      "seed": 25760
+    },
+    "31105": {
+      "name": "Kimball",
+      "seed": 81406
+    },
+    "31107": {
+      "name": "Knox",
+      "seed": 14767
+    },
+    "31109": {
+      "name": "Lancaster",
+      "seed": 46163
+    },
+    "31111": {
+      "name": "Lincoln",
+      "seed": 63667
+    },
+    "31113": {
+      "name": "Logan",
+      "seed": 10747
+    },
+    "31115": {
+      "name": "Loup",
+      "seed": 58101
+    },
+    "31117": {
+      "name": "McPherson",
+      "seed": 30751
+    },
+    "31119": {
+      "name": "Madison",
+      "seed": 78338
+    },
+    "31121": {
+      "name": "Merrick",
+      "seed": 92266
+    },
+    "31123": {
+      "name": "Morrill",
+      "seed": 10814
+    },
+    "31125": {
+      "name": "Nance",
+      "seed": 41299
+    },
+    "31127": {
+      "name": "Nemaha",
+      "seed": 19484
+    },
+    "31129": {
+      "name": "Nuckolls",
+      "seed": 83690
+    },
+    "31131": {
+      "name": "Otoe",
+      "seed": 11202
+    },
+    "31133": {
+      "name": "Pawnee",
+      "seed": 28225
+    },
+    "31135": {
+      "name": "Perkins",
+      "seed": 83556
+    },
+    "31137": {
+      "name": "Phelps",
+      "seed": 43887
+    },
+    "31139": {
+      "name": "Pierce",
+      "seed": 48736
+    },
+    "31141": {
+      "name": "Platte",
+      "seed": 87670
+    },
+    "31143": {
+      "name": "Polk",
+      "seed": 78483
+    },
+    "31145": {
+      "name": "Red Willow",
+      "seed": 17752
+    },
+    "31147": {
+      "name": "Richardson",
+      "seed": 30337
+    },
+    "31149": {
+      "name": "Rock",
+      "seed": 82471
+    },
+    "31151": {
+      "name": "Saline",
+      "seed": 18456
+    },
+    "31153": {
+      "name": "Sarpy",
+      "seed": 68824
+    },
+    "31155": {
+      "name": "Saunders",
+      "seed": 55723
+    },
+    "31157": {
+      "name": "Scotts Bluff",
+      "seed": 35951
+    },
+    "31159": {
+      "name": "Seward",
+      "seed": 58172
+    },
+    "31161": {
+      "name": "Sheridan",
+      "seed": 80934
+    },
+    "31163": {
+      "name": "Sherman",
+      "seed": 82460
+    },
+    "31165": {
+      "name": "Sioux",
+      "seed": 60958
+    },
+    "31167": {
+      "name": "Stanton",
+      "seed": 31813
+    },
+    "31169": {
+      "name": "Thayer",
+      "seed": 17395
+    },
+    "31171": {
+      "name": "Thomas",
+      "seed": 18751
+    },
+    "31173": {
+      "name": "Thurston",
+      "seed": 25141
+    },
+    "31175": {
+      "name": "Valley",
+      "seed": 94661
+    },
+    "31177": {
+      "name": "Washington",
+      "seed": 85855
+    },
+    "31179": {
+      "name": "Wayne",
+      "seed": 62394
+    },
+    "31181": {
+      "name": "Webster",
+      "seed": 21522
+    },
+    "31183": {
+      "name": "Wheeler",
+      "seed": 75823
+    },
+    "31185": {
+      "name": "York",
+      "seed": 46520
+    }
+  }
+}
