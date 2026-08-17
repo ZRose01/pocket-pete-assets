@@ -16,9 +16,11 @@ overwritten by it.
 | file | what it is |
 |---|---|
 | `counties.json` | **the database.** Which counties are filled in, and the seed that colors each one |
+| `counties.synthetic.json` | a **stand-in** table, 40 counties, for looking at the design — see below |
 | `counties.geojson` | Nebraska's 93 county polygons, from the U.S. Census cartographic boundary files |
 | `adjacency.json` | which counties share a border — a derived, committed cache |
 | `make_seeds.py` | regenerates `counties.json` |
+| `make_synthetic.py` | regenerates `counties.synthetic.json` |
 
 ## counties.json
 
@@ -36,10 +38,12 @@ Keyed by county FIPS (`GEOID` in the geojson), so the key is the identity and
 a duplicate is impossible to write.
 
 **Presence is the fill.** A county in this table is drawn in its color; a
-county absent from it is drawn in the map's empty color. Removing a county is
-how you empty it. All 93 are currently present — the site has no curated
-subset yet, so the starting position is a full map, and narrowing it is a
-delete.
+county absent from it is drawn as a bare outline, with the page's own
+background showing through. Removing a county is how you empty it. All 93 are
+currently present in `counties.json` — there is no curated subset yet, so the
+starting position is a full map and narrowing it is a delete. (Which is why
+`counties.synthetic.json` exists: with every county filled, the empty
+treatment is never on screen.)
 
 **The color is not stored — the seed is.** The map hashes the seed to an
 index over its palette, so:
@@ -51,6 +55,53 @@ index over its palette, so:
 The palette itself lives in the *site's* CSS (`styles/theme.css`), not here.
 This file never names a color, which is what lets the palette be restyled
 without rewriting the data.
+
+## counties.synthetic.json — not data
+
+A stand-in, so the map can be judged before there is anything real to put
+in it. `counties.json` lists all 93 counties, which means no county is ever
+empty; the site's whole unfilled treatment — counties drawn as bare outlines
+over the page's blue — never appears, and the layout is never seen against a
+hole. This fills 40.
+
+**It is identical in shape to `counties.json`**, so the site swaps between
+them with a one-line change (`COUNTY_DB` in its `index.html`), and nothing
+downstream can tell the difference. Delete both this file and that pointer
+once a real table exists.
+
+```bash
+python3 make_synthetic.py              # rebuild it
+python3 make_synthetic.py --fill 55    # a fuller map
+python3 make_synthetic.py --salt foo   # a different arrangement
+```
+
+The filled counties are **clusters grown from Nebraska's population
+counties**, not a random scatter. Real coverage data clusters — somebody
+works a region — so it comes in contiguous runs with empty stretches
+between, and a uniform scatter of 40 over 93 both looks wrong and understates
+how often two filled counties end up adjacent, which is exactly the case the
+palette has to survive.
+
+Every center county is taken before growth starts, so each is guaranteed to
+appear. An earlier version interleaved them with growth and quietly dropped
+North Platte when the fill budget ran out before its turn. Growth then draws
+uniformly from the frontier — which is *not* uniform over clusters, since a
+big cluster contributes more frontier and so keeps growing faster. That
+rich-get-richer unevenness is what real coverage looks like, and it falls out
+of the draw rather than out of a weighting rule.
+
+Colors are solved over the filled subgraph only. A border to an unfilled
+county constrains nothing — there is no color on the other side of it — so
+holding the solver to those borders would spend its effort on seams no
+visitor can see. With only 58 borders between filled counties, three colors
+are comfortably enough and it finds a clean coloring:
+
+```
+filled:  40 of 93 counties
+shared borders: 58
+palette spread: {0: 11, 1: 15, 2: 14}
+same-colored borders: none
+```
 
 ## Regenerating
 
