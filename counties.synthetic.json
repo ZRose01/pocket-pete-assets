@@ -1,0 +1,165 @@
+{
+  "version": 1,
+  "counties": {
+    "31001": {
+      "name": "Adams",
+      "seed": 47261
+    },
+    "31003": {
+      "name": "Antelope",
+      "seed": 40353
+    },
+    "31005": {
+      "name": "Arthur",
+      "seed": 84084
+    },
+    "31011": {
+      "name": "Boone",
+      "seed": 24742
+    },
+    "31019": {
+      "name": "Buffalo",
+      "seed": 80010
+    },
+    "31021": {
+      "name": "Burt",
+      "seed": 88352
+    },
+    "31025": {
+      "name": "Cass",
+      "seed": 21795
+    },
+    "31029": {
+      "name": "Chase",
+      "seed": 76671
+    },
+    "31035": {
+      "name": "Clay",
+      "seed": 43867
+    },
+    "31037": {
+      "name": "Colfax",
+      "seed": 14334
+    },
+    "31039": {
+      "name": "Cuming",
+      "seed": 73423
+    },
+    "31051": {
+      "name": "Dixon",
+      "seed": 16164
+    },
+    "31053": {
+      "name": "Dodge",
+      "seed": 22311
+    },
+    "31055": {
+      "name": "Douglas",
+      "seed": 57165
+    },
+    "31057": {
+      "name": "Dundy",
+      "seed": 14199
+    },
+    "31067": {
+      "name": "Gage",
+      "seed": 71061
+    },
+    "31069": {
+      "name": "Garden",
+      "seed": 66914
+    },
+    "31079": {
+      "name": "Hall",
+      "seed": 98776
+    },
+    "31085": {
+      "name": "Hayes",
+      "seed": 43338
+    },
+    "31087": {
+      "name": "Hitchcock",
+      "seed": 20385
+    },
+    "31091": {
+      "name": "Hooker",
+      "seed": 39196
+    },
+    "31101": {
+      "name": "Keith",
+      "seed": 18170
+    },
+    "31109": {
+      "name": "Lancaster",
+      "seed": 30820
+    },
+    "31111": {
+      "name": "Lincoln",
+      "seed": 71161
+    },
+    "31113": {
+      "name": "Logan",
+      "seed": 85023
+    },
+    "31117": {
+      "name": "McPherson",
+      "seed": 90358
+    },
+    "31119": {
+      "name": "Madison",
+      "seed": 68751
+    },
+    "31129": {
+      "name": "Nuckolls",
+      "seed": 55200
+    },
+    "31139": {
+      "name": "Pierce",
+      "seed": 80252
+    },
+    "31141": {
+      "name": "Platte",
+      "seed": 30583
+    },
+    "31151": {
+      "name": "Saline",
+      "seed": 98415
+    },
+    "31153": {
+      "name": "Sarpy",
+      "seed": 20379
+    },
+    "31155": {
+      "name": "Saunders",
+      "seed": 39327
+    },
+    "31157": {
+      "name": "Scotts Bluff",
+      "seed": 66487
+    },
+    "31159": {
+      "name": "Seward",
+      "seed": 11607
+    },
+    "31167": {
+      "name": "Stanton",
+      "seed": 49456
+    },
+    "31169": {
+      "name": "Thayer",
+      "seed": 53371
+    },
+    "31171": {
+      "name": "Thomas",
+      "seed": 19126
+    },
+    "31173": {
+      "name": "Thurston",
+      "seed": 75198
+    },
+    "31185": {
+      "name": "York",
+      "seed": 54700
+    }
+  }
+}
